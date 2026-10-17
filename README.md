@@ -28,7 +28,7 @@ to pop and flip the board; the board moves by physics. Two parks: The Plaza and 
 
 **Connect your agent to NotesMosaic:** add the NotesMosaic MCP server at `https://notesmosaic.com/mcp`. The steps for each app
 (Claude, ChatGPT, Codex, Cursor and others) are at https://notesmosaic.com/developers/mcp. A connected agent can open the game for
-you to play (`play_game`), read the method it was made with (`read_skill {"name": "notesmosaic-clean-room-remake"}`), and build
+you to play (`play_game`), read the method it was made with (`read_skill {"name": "steal-like-an-artist"}`), and build
 and publish a game of your own the same way.
 
 ## How Waxline was made — and why it is clean
@@ -70,7 +70,7 @@ Waxline is not affiliated with or endorsed by Electronic Arts. *skate.* is a tra
 | Path | What it is |
 |---|---|
 | `build/` | the game exactly as published on NotesMosaic (version 2), with its `rights.json` |
-| `skills/notesmosaic-clean-room-remake/SKILL.md` | the clean-room remake method: the same text the NotesMosaic MCP serves |
+| `skills/steal-like-an-artist/SKILL.md` | the clean-room remake method: the same text the NotesMosaic MCP serves |
 | `CLEANROOM.md` | every number that sets the feel and where it came from; what was read, and what was never opened |
 | `DESIGN.md` | the design: the targets, the controls, the physics, the parks |
 | `MODDING.md` | how to change a park, a trick or a number without touching the engine |

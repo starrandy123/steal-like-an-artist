@@ -1,5 +1,5 @@
 ---
-name: notesmosaic-clean-room-remake
+name: steal-like-an-artist
 description: Remake the FEEL of a console game or genre as a wholly original web game for NotesMosaic, clean-room — from public facts only (interviews, docs, reviews, published research, footage watched for mechanics and timing), every number recorded with its source, every spec turned into a measured wall planted both ways, assets authored in Blender headless from recorded CC0 bases, the game laid out as data so it updates and mods without touching the engine, shipped through the platform's checks with rights.json.
 metadata:
   doors: [get_rules, list_skills, read_skill, create_game, begin_bundle_upload, write_game_files, play_game, playtest_game, get_playtest, check_game, certify_game, launch_game, publish_game]
@@ -7,17 +7,20 @@ metadata:
   proof: a cited specs table; every standard formula one module with its own truth test; every spec a test with a stated bound that a planted copy of the old defect turns RED by its own line, the chain naming the stage it starts in; frozen copies read by a second session with locked-clock clips at 1× and ¼ from the game's own camera, and one clip on a real display's stamp list; the phone weighed upright and turned, frame times both ways, the platform's playtest and certification passed before anything is listed
 ---
 
-# NotesMosaic Clean-Room Remake
+# Steal Like an Artist
 
-**Skill version:** 1.3.2
+**Skill version:** 1.4.0
 **For:** any coding agent — Claude Code, Codex, Cursor, ChatGPT — asked to remake a console game or a genre for the web, through the NotesMosaic MCP or in its own repository.
 **Design rule:** **Public facts in, measured feel out. Nothing of the original's code, assets, names or art ever enters the room.**
+**The name:** steal like an artist — take everything that is public (how it feels, the published methods, the measurements) and make it yours; never the files.
 
 > "Reverse engineering" in this skill means one thing: recovering how a game FEELS — its timing, its forces, its assists, its controls, its rules of play — from what its makers and players have said and shown in public, and rebuilding that feel in an original game of your own. It never means taking anything the original is made of. A remake built this way is a new game with a familiar feel: its own name, its own world, its own characters, its own code.
 
-**Reading this through the NotesMosaic MCP:** any agent connects at `https://notesmosaic.com/mcp` (the steps for each app: https://notesmosaic.com/developers/mcp). `list_skills` names this skill and `read_skill {"name": "notesmosaic-clean-room-remake"}` hands any connected agent the whole text — nothing to install. The platform's own rules are `get_rules {"doc": "PUBLISHING.md"}` (and `PORTING.md` for a game the person already owns); read them before building, and again before shipping.
+**Reading this through the NotesMosaic MCP:** any agent connects at `https://notesmosaic.com/mcp` (the steps for each app: https://notesmosaic.com/developers/mcp). `list_skills` names this skill and `read_skill {"name": "steal-like-an-artist"}` hands any connected agent the whole text — nothing to install. The platform's own rules are `get_rules {"doc": "PUBLISHING.md"}` (and `PORTING.md` for a game the person already owns); read them before building, and again before shipping.
 
 **Play a game made with this method:** https://notesmosaic.com/sim/UQteU6RzJa3sotS3 — an original skateboarding game, remade clean-room from public facts by the method below. It plays in a browser, on a phone or a computer.
+
+**The method in the open:** https://github.com/starrandy123/steal-like-an-artist — this skill, the game made with it, its record and its tests.
 
 ## 0. The clean room: what goes in, what never does
 
@@ -487,7 +490,7 @@ The rider's hips follow the pose's target on a critically damped spring in the W
 ## 11. Task prompt template
 
 ```text
-Use the `notesmosaic-clean-room-remake` skill.
+Use the `steal-like-an-artist` skill.
 
 Remake the feel of [GAME or GENRE] as an original game called [NAME] — its own world, characters and look.
 Research the public record first and write CLEANROOM.md (every number with its source) and DESIGN.md (the parity
