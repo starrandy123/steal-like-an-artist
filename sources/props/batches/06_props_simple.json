@@ -1,0 +1,258 @@
+[
+ {
+  "tool": "execute_blender_code",
+  "args": {
+   "code": "import bpy\nfor o in list(bpy.data.objects): bpy.data.objects.remove(o, do_unlink=True)\nprint('scene cleared')",
+   "user_prompt": "blender MCP is to be used to make other assets and all"
+  }
+ },
+ {
+  "tool": "import_asset",
+  "args": {
+   "source": "polyhaven",
+   "id": "barrel_03",
+   "asset_type": "models",
+   "resolution": "1k",
+   "user_prompt": "blender MCP is to be used to make other assets and all"
+  }
+ },
+ {
+  "tool": "execute_blender_code",
+  "file": "../scripts/tag_new.py",
+  "vars": {
+   "KIND": "barrel"
+  },
+  "args": {
+   "user_prompt": "blender MCP is to be used to make other assets and all"
+  }
+ },
+ {
+  "tool": "import_asset",
+  "args": {
+   "source": "polyhaven",
+   "id": "old_tyre",
+   "asset_type": "models",
+   "resolution": "1k",
+   "user_prompt": "blender MCP is to be used to make other assets and all"
+  }
+ },
+ {
+  "tool": "execute_blender_code",
+  "file": "../scripts/tag_new.py",
+  "vars": {
+   "KIND": "tyre"
+  },
+  "args": {
+   "user_prompt": "blender MCP is to be used to make other assets and all"
+  }
+ },
+ {
+  "tool": "import_asset",
+  "args": {
+   "source": "polyhaven",
+   "id": "wooden_crate_01",
+   "asset_type": "models",
+   "resolution": "1k",
+   "user_prompt": "blender MCP is to be used to make other assets and all"
+  }
+ },
+ {
+  "tool": "execute_blender_code",
+  "file": "../scripts/tag_new.py",
+  "vars": {
+   "KIND": "crate"
+  },
+  "args": {
+   "user_prompt": "blender MCP is to be used to make other assets and all"
+  }
+ },
+ {
+  "tool": "import_asset",
+  "args": {
+   "source": "polyhaven",
+   "id": "covered_car",
+   "asset_type": "models",
+   "resolution": "1k",
+   "user_prompt": "blender MCP is to be used to make other assets and all"
+  }
+ },
+ {
+  "tool": "execute_blender_code",
+  "file": "../scripts/tag_new.py",
+  "vars": {
+   "KIND": "car"
+  },
+  "args": {
+   "user_prompt": "blender MCP is to be used to make other assets and all"
+  }
+ },
+ {
+  "tool": "execute_blender_code",
+  "file": "../scripts/build_props.py",
+  "vars": {
+   "SIMPLE": [
+    "crate",
+    "tyre",
+    "barrel"
+   ],
+   "OUT": "/path/to/waxline/build/assets/kilnyard_props.glb"
+  },
+  "args": {
+   "user_prompt": "blender MCP is to be used to make other assets and all"
+  }
+ },
+ {
+  "tool": "execute_blender_code",
+  "file": "../scripts/simplify_props.py",
+  "vars": {
+   "KIND": "crate",
+   "STAGE": "shape",
+   "RUN": "/path/to/waxline/sources/props/runs/06_props_simple"
+  },
+  "args": {
+   "user_prompt": "blender MCP is to be used to make other assets and all"
+  }
+ },
+ {
+  "tool": "execute_blender_code",
+  "file": "../scripts/simplify_props.py",
+  "vars": {
+   "KIND": "crate",
+   "STAGE": "color",
+   "RUN": "/path/to/waxline/sources/props/runs/06_props_simple"
+  },
+  "args": {
+   "user_prompt": "blender MCP is to be used to make other assets and all"
+  }
+ },
+ {
+  "tool": "execute_blender_code",
+  "file": "../scripts/simplify_props.py",
+  "vars": {
+   "KIND": "crate",
+   "STAGE": "ao",
+   "RUN": "/path/to/waxline/sources/props/runs/06_props_simple"
+  },
+  "args": {
+   "user_prompt": "blender MCP is to be used to make other assets and all"
+  }
+ },
+ {
+  "tool": "execute_blender_code",
+  "file": "../scripts/simplify_props.py",
+  "vars": {
+   "KIND": "crate",
+   "STAGE": "final",
+   "RUN": "/path/to/waxline/sources/props/runs/06_props_simple"
+  },
+  "args": {
+   "user_prompt": "blender MCP is to be used to make other assets and all"
+  }
+ },
+ {
+  "tool": "execute_blender_code",
+  "file": "../scripts/simplify_props.py",
+  "vars": {
+   "KIND": "tyre",
+   "STAGE": "shape",
+   "RUN": "/path/to/waxline/sources/props/runs/06_props_simple"
+  },
+  "args": {
+   "user_prompt": "blender MCP is to be used to make other assets and all"
+  }
+ },
+ {
+  "tool": "execute_blender_code",
+  "file": "../scripts/simplify_props.py",
+  "vars": {
+   "KIND": "tyre",
+   "STAGE": "color",
+   "RUN": "/path/to/waxline/sources/props/runs/06_props_simple"
+  },
+  "args": {
+   "user_prompt": "blender MCP is to be used to make other assets and all"
+  }
+ },
+ {
+  "tool": "execute_blender_code",
+  "file": "../scripts/simplify_props.py",
+  "vars": {
+   "KIND": "tyre",
+   "STAGE": "ao",
+   "RUN": "/path/to/waxline/sources/props/runs/06_props_simple"
+  },
+  "args": {
+   "user_prompt": "blender MCP is to be used to make other assets and all"
+  }
+ },
+ {
+  "tool": "execute_blender_code",
+  "file": "../scripts/simplify_props.py",
+  "vars": {
+   "KIND": "tyre",
+   "STAGE": "final",
+   "RUN": "/path/to/waxline/sources/props/runs/06_props_simple"
+  },
+  "args": {
+   "user_prompt": "blender MCP is to be used to make other assets and all"
+  }
+ },
+ {
+  "tool": "execute_blender_code",
+  "file": "../scripts/simplify_props.py",
+  "vars": {
+   "KIND": "barrel",
+   "STAGE": "shape",
+   "RUN": "/path/to/waxline/sources/props/runs/06_props_simple"
+  },
+  "args": {
+   "user_prompt": "blender MCP is to be used to make other assets and all"
+  }
+ },
+ {
+  "tool": "execute_blender_code",
+  "file": "../scripts/simplify_props.py",
+  "vars": {
+   "KIND": "barrel",
+   "STAGE": "color",
+   "RUN": "/path/to/waxline/sources/props/runs/06_props_simple"
+  },
+  "args": {
+   "user_prompt": "blender MCP is to be used to make other assets and all"
+  }
+ },
+ {
+  "tool": "execute_blender_code",
+  "file": "../scripts/simplify_props.py",
+  "vars": {
+   "KIND": "barrel",
+   "STAGE": "ao",
+   "RUN": "/path/to/waxline/sources/props/runs/06_props_simple"
+  },
+  "args": {
+   "user_prompt": "blender MCP is to be used to make other assets and all"
+  }
+ },
+ {
+  "tool": "execute_blender_code",
+  "file": "../scripts/simplify_props.py",
+  "vars": {
+   "KIND": "barrel",
+   "STAGE": "final",
+   "RUN": "/path/to/waxline/sources/props/runs/06_props_simple"
+  },
+  "args": {
+   "user_prompt": "blender MCP is to be used to make other assets and all"
+  }
+ },
+ {
+  "tool": "execute_blender_code",
+  "file": "../scripts/export_props.py",
+  "vars": {
+   "OUT": "/path/to/waxline/build/assets/kilnyard_props.glb"
+  },
+  "args": {
+   "user_prompt": "blender MCP is to be used to make other assets and all"
+  }
+ }
+]

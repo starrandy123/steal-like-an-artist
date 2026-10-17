@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="theme-color" content="#1c1814">
+<title>Waxline</title>
+<!-- this game brings its own loading screen (the first thing in <body>) and says so before anything is painted -->
+<script>try { if (window.__mosaBoot && window.__mosaBoot.claimSurface) window.__mosaBoot.claimSurface({ selector: '#loading' }); } catch (e) { /* a page of its own */ }</script>
+<style>
+  /* the loading screen, styled here so it is whole on the very first paint */
+  html, body { margin: 0; height: 100%; overflow: hidden; background: #1c1814; }
+  #loading { position: fixed; inset: 0; z-index: 50; overflow: hidden; display: grid; place-items: center; color: #f4ede0;
+    font-family: "Avenir Next Condensed", "Roboto Condensed", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+    background: radial-gradient(120% 90% at 78% 18%, #f3b77c 0%, #c9824f 26%, #5b3d2c 58%, #1c1814 100%); padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left); }
+  #loading .ld-sun { position: absolute; right: 12%; top: 10%; width: 22vmin; height: 22vmin; border-radius: 50%; background: radial-gradient(circle, #fff3d8 0%, #ffd18e 30%, rgba(255, 190, 120, 0) 70%); }
+  #loading .ld-in { position: relative; width: min(86vw, 640px); display: grid; gap: 18px; }
+  #loading .ld-name { font-size: clamp(56px, 17vmin, 132px); line-height: 0.84; font-weight: 800; letter-spacing: 0.01em; font-style: italic; text-transform: uppercase; color: #fff7ea; text-shadow: 0 3px 0 #2a1f17, 0 0 40px rgba(255, 180, 100, 0.35); }
+  #loading .ld-name b { color: #ffb84d; font-weight: 800; }
+  #loading .ld-ledge { position: relative; height: 54px; }
+  /* the ledge: granite with its steel edge, and the smear of wax the board leaves */
+  #loading .ld-ledge::before { content: ''; position: absolute; left: 0; right: 0; bottom: 0; height: 18px; border-radius: 3px; background: linear-gradient(180deg, #a6adb1 0 3px, #8e9599 3px 100%); box-shadow: 0 10px 22px rgba(0, 0, 0, 0.45); }
+  #loading .ld-wax { position: absolute; left: 0; bottom: 14px; height: 4px; width: calc(var(--mosa-progress, 0) * 100%); background: linear-gradient(90deg, rgba(255, 245, 225, 0), rgba(255, 245, 225, 0.75)); border-radius: 2px; transition: width .25s ease-out; }
+  /* the board, side on: its place along the ledge is the work done */
+  #loading .ld-board { position: absolute; bottom: 18px; left: calc(var(--mosa-progress, 0) * (100% - 120px)); width: 120px; height: 34px; transition: left .25s ease-out; }
+  #loading .ld-board svg { display: block; width: 120px; height: 34px; overflow: visible; }
+  #loading .ld-wheel { transform-box: fill-box; transform-origin: center; animation: ld-roll 0.6s linear infinite; }
+  #loading .ld-phase { min-height: 1.4em; font-size: 13px; letter-spacing: 0.3em; text-transform: uppercase; color: rgba(255, 244, 228, 0.78); }
+  #loading .ld-bar { display: block; height: 2px; width: 0; background: #ffb84d; margin-top: -8px; opacity: 0.6; }
+  @keyframes ld-roll { to { transform: rotate(360deg); } }
+  @media (max-height: 480px) { #loading .ld-in { gap: 10px; } #loading .ld-name { font-size: clamp(48px, 21vmin, 96px); } }
+  @media (prefers-reduced-motion: reduce) { #loading .ld-wheel { animation: none; } #loading .ld-board, #loading .ld-wax { transition: none; } }
+</style>
+<link rel="stylesheet" href="css/waxline.css">
+</head>
+<body>
+<div id="loading" data-mosa-loading role="status" aria-label="Loading Waxline">
+  <i class="ld-sun"></i>
+  <div class="ld-in">
+    <div class="ld-name">Wax<b>line</b></div>
+    <div class="ld-ledge"><i class="ld-wax"></i><div class="ld-board"><svg viewBox="0 0 120 34" aria-hidden="true">
+      <path d="M6 12 Q2 12 2 7 L10 10 L108 10 L118 7 Q118 12 114 12 Z" fill="#e7a32a" stroke="#2a1f17" stroke-width="1.5"/>
+      <rect x="26" y="12" width="14" height="5" rx="1" fill="#9aa0a6"/><rect x="80" y="12" width="14" height="5" rx="1" fill="#9aa0a6"/>
+      <g class="ld-wheel"><circle cx="33" cy="24" r="8" fill="#efe9dc" stroke="#2a1f17" stroke-width="1.5"/><path d="M33 17 V21" stroke="#2a1f17" stroke-width="2"/></g>
+      <g class="ld-wheel"><circle cx="87" cy="24" r="8" fill="#efe9dc" stroke="#2a1f17" stroke-width="1.5"/><path d="M87 17 V21" stroke="#2a1f17" stroke-width="2"/></g>
+    </svg></div></div>
+    <i class="ld-bar" data-mosa-progress></i>
+    <span class="ld-phase" data-mosa-phase>Pouring the park</span>
+  </div>
+</div>
+<div id="app"></div>
+<div id="ui"></div>
+<script src="mosa-port.js"></script>
+<script src="port.js"></script>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

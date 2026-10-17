@@ -1,0 +1,63 @@
+[
+ {
+  "tool": "execute_blender_code",
+  "args": {
+   "code": "import bpy\nfor o in list(bpy.data.objects): bpy.data.objects.remove(o, do_unlink=True)\nprint('scene cleared')",
+   "user_prompt": "blender MCP is to be used to make other assets and all"
+  }
+ },
+ {
+  "tool": "import_asset",
+  "args": {
+   "source": "polyhaven",
+   "id": "modular_factory_facade",
+   "asset_type": "models",
+   "resolution": "1k",
+   "user_prompt": "blender MCP is to be used to make other assets and all"
+  }
+ },
+ {
+  "tool": "import_asset",
+  "args": {
+   "source": "polyhaven",
+   "id": "modular_urban_apartments_facade",
+   "asset_type": "models",
+   "resolution": "1k",
+   "user_prompt": "blender MCP is to be used to make other assets and all"
+  }
+ },
+ {
+  "tool": "import_asset",
+  "args": {
+   "source": "polyhaven",
+   "id": "rollershutter_door",
+   "asset_type": "models",
+   "resolution": "1k",
+   "user_prompt": "blender MCP is to be used to make other assets and all"
+  }
+ },
+ {
+  "tool": "import_asset",
+  "args": {
+   "source": "polyhaven",
+   "id": "modular_fire_escape",
+   "asset_type": "models",
+   "resolution": "1k",
+   "user_prompt": "blender MCP is to be used to make other assets and all"
+  }
+ },
+ {
+  "tool": "execute_blender_code",
+  "file": "../scripts/inspect.py",
+  "args": {
+   "user_prompt": "blender MCP is to be used to make other assets and all"
+  }
+ },
+ {
+  "tool": "execute_blender_code",
+  "args": {
+   "code": "import bpy\nbpy.ops.wm.save_as_mainfile(filepath='/path/to/waxline/sources/props/work/backdrop_raw.blend')\nprint('saved')",
+   "user_prompt": "blender MCP is to be used to make other assets and all"
+  }
+ }
+]

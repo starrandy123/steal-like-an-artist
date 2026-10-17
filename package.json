@@ -1,0 +1,13 @@
+{
+  "name": "waxline",
+  "private": true,
+  "description": "An original skateboarding game for phones and the web, made clean-room from public facts",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "sh tests/run_all.sh"
+  },
+  "devDependencies": {
+    "playwright": "1.60.0"
+  }
+}

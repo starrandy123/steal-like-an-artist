@@ -1,0 +1,17 @@
+{
+ "package": "three",
+ "version": "0.183.1",
+ "licence": "MIT (build/licenses/three-LICENSE.txt)",
+ "rewrite": {
+  "from": "} from 'three';",
+  "to": "} from '../../../build/three.module.min.js';",
+  "in": "examples/jsm/"
+ },
+ "npm_sha256": {
+  "build/three.module.min.js": "e3ec4d5d223c0119f754150a3d9deef16139074ea17b073e93bbce315ad16eda",
+  "build/three.core.min.js": "0a9c2f0672c7b8d993ba7639e71919db181ca50c9dff99c78476d3e19057ca9c",
+  "examples/jsm/loaders/GLTFLoader.js": "e4e692923224a10bbc00be04365d6356b5e8c48b2bbd1f22a7fe929591646fb8",
+  "examples/jsm/utils/BufferGeometryUtils.js": "fda7e946b8e0b5ab39b779206589e7a1079a22eb24efb89d7223e03fdfb1f751",
+  "examples/jsm/utils/SkeletonUtils.js": "0761b1e003917b215d25dd81439d854b36034b5a57ce84c2cfe3b02428d7b253"
+ }
+}

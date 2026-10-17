@@ -1,0 +1,11 @@
+# the rounds' evidence and clips live beside the tree, never in it (each round frozen to ../waxline_r<n>/)
+runs/
+# downloaded and generated binaries: the CC0 base (recorded by its URL and sha256 in CLEANROOM.md) and V14's work files (abandoned, 10-16)
+sources/juno/base/zip/
+sources/juno/base/unzipped/
+sources/juno/work/
+*.blend1
+node_modules/
+.DS_Store
+# Kiln Yard's Blender work files (the Poly Haven CC0 kits as downloaded and worked; recorded by their URLs in sources/props/README.md)
+sources/props/work/

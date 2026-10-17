@@ -1,0 +1,32 @@
+NAMED GAPS against the planned physics (gAir 12.5, gGround 9.81, pop apex 0.3..0.85 m → vy 2.74..4.61 m/s, push top 7.5, pump cap 8.5)
+speed needed along the path, m/s, by pop (g1 = flick speed grade 1, g5 = grade 5 or the Streamlined assist)
+
+ 1 Deck Drop        800  no pop 5.54 (push) · pop g1 3.74 (push) · pop g3 3.25 (push) · pop g5 2.93 (push)
+ 2 Long Five        500  no pop 4.70 (push) · pop g1 2.63 (push) · pop g3 2.18 (push) · pop g5 1.90 (push)
+ 3 Rail Ride        750  (grind: measured by the sim, not by a jump)
+ 4 Shelf Down       600  (grind: measured by the sim, not by a jump)
+ 5 Sun Bank Drop    400  no pop 5.93 (push) · pop g1 3.32 (push) · pop g3 2.74 (push) · pop g5 2.40 (push)
+ 6 Terrace Drop     250  no pop 6.99 (push) · pop g1 3.91 (push) · pop g3 3.24 (push) · pop g5 2.83 (push)
+ 7 Planter Hop      350  no pop   ∞  (never) · pop g1   ∞  (never) · pop g3 8.49 (pump/line) · pop g5 4.74 (push)
+ 8 Ledge to Pad     400  no pop 11.25 (TOO FAST) · pop g1 3.67 (push) · pop g3 2.79 (push) · pop g5 2.34 (push)
+ 9 Pad Manual       300  (manual: measured by the sim, not by a jump)
+10 Spine Transfer   500  lip 64.7° · needs 2.14 m/s at the lip = 5.34 m/s at the foot (push)
+11 Lawn Wall Air    300  lip 64.7° · needs 4.28 m/s at the lip = 6.50 m/s at the foot (push)
+12 Basin Air        450  lip 75.5° · needs 4.47 m/s at the lip = 7.48 m/s at the foot (push)
+13 Coping Run       400  (grind: measured by the sim, not by a jump)
+14 Corner Carve     350  (carve: measured by the sim, not by a jump)
+15 Block Hop        450  no pop 8.08 (pump/line) · pop g1 5.80 (push) · pop g3 5.25 (push) · pop g5 4.92 (push)
+16 Box Rail         400  (grind: measured by the sim, not by a jump)
+17 Bench Gap        250  no pop   ∞  (never) · pop g1   ∞  (never) · pop g3 1.59 (push) · pop g5 0.89 (push)
+18 Curb Run         200  (grind: measured by the sim, not by a jump)
+19 East Wall Air    350  lip 70.6° · needs 4.11 m/s at the lip = 7.26 m/s at the foot (push)
+20 Sun Ledge Run    300  (grind: measured by the sim, not by a jump)
+21 Terrace Bar      300  (grind: measured by the sim, not by a jump)
+22 Deck Wall Air    350  lip 70.6° · needs 4.11 m/s at the lip = 7.26 m/s at the foot (push)
+23 Slant Run        350  (grind: measured by the sim, not by a jump)
+24 Block Manual     250  (manual: measured by the sim, not by a jump)
+
+speed off the start (Deck Quarter, 1.83 m, no friction): 5.99 m/s · lip angles: Deck/East quarter 70.6°, Basin 75.5°, Spine/Lawn 64.7°
+transition runs: 1.83/2.74 → 2.584 m · 1.83/2.44 → 2.363 m · 1.22/2.13 → 1.926 m
+
+layout: every element inside the park, no two on one spot

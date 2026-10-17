@@ -1,0 +1,62 @@
+{
+  "schema": "mosa.rights.v1",
+  "searched": "The build's own files, read on 2026-10-17: CREDITS.md, LICENSE, licenses/three-LICENSE.txt, licenses/polyhaven-CC0.txt and every source file's header; and the second park's asset record (sources/props/README.md in the source tree, outside the build), whose seven Poly Haven assets were checked against Poly Haven's own API (author, and the md5 and size of each file used) and its licence page. Every model, texture and sound of the game, and both parks' layouts, are made by the game's own code when it starts, except Kiln Yard's buildings and props, which are two model files (assets/kilnyard_backdrop.glb, assets/kilnyard_props.glb) built by our own Blender script from those seven CC0 models. The only code not written for this game is three.js 0.183.1 with three of its examples (MIT, licenses/three-LICENSE.txt) and the NotesMosaic port kit (MIT-0).",
+  "mine": "All of Waxline but the seven CC0 source models below: its code, both parks (the Plaza and Kiln Yard), the skater, the board, every surface and every sound, written for this game by the owner's own Claude agent sessions in the NotesMosaic house studio (Mosaic); and the work of turning the seven models into Kiln Yard's buildings and props.",
+  "owner": "NotesMosaic (Mosaic house studio)",
+  "others": [
+    {
+      "what": "three.js 0.183.1 (vendor/three/build/three.core.min.js and three.module.min.js) and three of its examples (vendor/three/examples/jsm/loaders/GLTFLoader.js, utils/BufferGeometryUtils.js, utils/SkeletonUtils.js)",
+      "by": "three.js authors",
+      "license": "MIT",
+      "from": "npm three@0.183.1 (github.com/mrdoob/three.js); its licence is licenses/three-LICENSE.txt"
+    },
+    {
+      "what": "the NotesMosaic port kit (mosa-port.js 1.2.1+s2)",
+      "by": "NotesMosaic",
+      "license": "MIT-0",
+      "from": "NotesMosaic's own port kit"
+    },
+    {
+      "what": "Poly Haven's \"Modular Factory Facade\" model, reworked into assets/kilnyard_backdrop.glb (Kiln Yard's buildings and props)",
+      "by": "James Ray Cock",
+      "license": "CC0-1.0",
+      "from": "https://polyhaven.com/a/modular_factory_facade (Poly Haven: \"Our assets are all licensed as CC0\"; the licence is licenses/polyhaven-CC0.txt)"
+    },
+    {
+      "what": "Poly Haven's \"Modular Urban Apartments Facade\" model, reworked into assets/kilnyard_backdrop.glb (Kiln Yard's buildings and props)",
+      "by": "James Ray Cock",
+      "license": "CC0-1.0",
+      "from": "https://polyhaven.com/a/modular_urban_apartments_facade (Poly Haven: \"Our assets are all licensed as CC0\"; the licence is licenses/polyhaven-CC0.txt)"
+    },
+    {
+      "what": "Poly Haven's \"Modular Fire Escape\" model, reworked into assets/kilnyard_backdrop.glb (Kiln Yard's buildings and props)",
+      "by": "Juniix",
+      "license": "CC0-1.0",
+      "from": "https://polyhaven.com/a/modular_fire_escape (Poly Haven: \"Our assets are all licensed as CC0\"; the licence is licenses/polyhaven-CC0.txt)"
+    },
+    {
+      "what": "Poly Haven's \"Barrel 03\" model's look (its base colour and the shading of its own crevices), baked onto our own drum in assets/kilnyard_props.glb (a Kiln Yard prop); none of the model's geometry ships",
+      "by": "Serhii Khromov",
+      "license": "CC0-1.0",
+      "from": "https://polyhaven.com/a/barrel_03 (Poly Haven: \"Our assets are all licensed as CC0\"; the licence is licenses/polyhaven-CC0.txt)"
+    },
+    {
+      "what": "Poly Haven's \"Old Tyre\" model's look (its base colour and the shading of its own crevices), baked onto our own ring laid flat in assets/kilnyard_props.glb (a Kiln Yard prop); none of the model's geometry ships",
+      "by": "MP (the author as Poly Haven credits them)",
+      "license": "CC0-1.0",
+      "from": "https://polyhaven.com/a/old_tyre (Poly Haven: \"Our assets are all licensed as CC0\"; the licence is licenses/polyhaven-CC0.txt)"
+    },
+    {
+      "what": "Poly Haven's \"Wooden Crate 01\" model's look (its base colour and the shading of its own crevices), baked onto our own box in assets/kilnyard_props.glb (a Kiln Yard prop); none of the model's geometry ships",
+      "by": "James Ray Cock",
+      "license": "CC0-1.0",
+      "from": "https://polyhaven.com/a/wooden_crate_01 (Poly Haven: \"Our assets are all licensed as CC0\"; the licence is licenses/polyhaven-CC0.txt)"
+    },
+    {
+      "what": "Poly Haven's \"Covered Car\" model, reworked into assets/kilnyard_props.glb (Kiln Yard's buildings and props)",
+      "by": "MP (the author as Poly Haven credits them)",
+      "license": "CC0-1.0",
+      "from": "https://polyhaven.com/a/covered_car (Poly Haven: \"Our assets are all licensed as CC0\"; the licence is licenses/polyhaven-CC0.txt)"
+    }
+  ]
+}

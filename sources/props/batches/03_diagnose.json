@@ -1,0 +1,5 @@
+[
+  {"tool": "execute_blender_code", "args": {"code": "import bpy\nfor o in list(bpy.data.objects): bpy.data.objects.remove(o, do_unlink=True)\nprint('scene cleared')", "user_prompt": "blender MCP is to be used to make other assets and all"}},
+  {"tool": "import_asset", "args": {"source": "polyhaven", "id": "modular_factory_facade", "asset_type": "models", "resolution": "1k", "user_prompt": "blender MCP is to be used to make other assets and all"}},
+  {"tool": "execute_blender_code", "file": "../scripts/diagnose.py", "args": {"user_prompt": "blender MCP is to be used to make other assets and all"}}
+]

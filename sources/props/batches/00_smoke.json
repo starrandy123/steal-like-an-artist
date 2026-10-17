@@ -1,0 +1,4 @@
+[
+  {"tool": "get_scene_info", "args": {}},
+  {"tool": "search_assets", "args": {"source": "polyhaven", "query": "concrete road barrier", "asset_type": "models", "limit": 5, "user_prompt": "blender MCP is to be used to make other assets and all"}}
+]

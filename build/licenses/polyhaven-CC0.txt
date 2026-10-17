@@ -1,0 +1,11 @@
+Kiln Yard's buildings (assets/kilnyard_backdrop.glb) are made from three Poly Haven assets, each licensed CC0 1.0 Universal
+(https://creativecommons.org/publicdomain/zero/1.0/):
+  - Modular Factory Facade, by James Ray Cock — https://polyhaven.com/a/modular_factory_facade
+  - Modular Urban Apartments Facade, by James Ray Cock — https://polyhaven.com/a/modular_urban_apartments_facade
+  - Modular Fire Escape, by Juniix — https://polyhaven.com/a/modular_fire_escape
+and its props (assets/kilnyard_props.glb) from four more, each CC0 1.0 Universal:
+  - Barrel 03, by Serhii Khromov — https://polyhaven.com/a/barrel_03
+  - Old Tyre, by MP — https://polyhaven.com/a/old_tyre
+  - Wooden Crate 01, by James Ray Cock — https://polyhaven.com/a/wooden_crate_01
+  - Covered Car, by MP — https://polyhaven.com/a/covered_car
+Poly Haven (https://polyhaven.com/license): "Our assets are all licensed as CC0." Attribution is not required; we give it anyway.

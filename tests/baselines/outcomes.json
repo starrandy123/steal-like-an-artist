@@ -1,0 +1,869 @@
+{
+ "release": "r24",
+ "at": "2026-10-17",
+ "rides": {
+  "cruise · Basin, the Basin's north wall @6.5": [
+   "clean",
+   "clean"
+  ],
+  "cruise · Basin, the Basin's north wall @8.5": [
+   "clean",
+   "clean"
+  ],
+  "cruise · Basin, the Basin's north wall -40° @6.5": [
+   "clean"
+  ],
+  "cruise · Basin, the Basin's north wall -40° @8.5": [
+   "clean",
+   "clean"
+  ],
+  "cruise · Basin, the Basin's north wall -25° @6.5": [
+   "clean"
+  ],
+  "cruise · Basin, the Basin's north wall -25° @8.5": [
+   "clean"
+  ],
+  "cruise · Basin, the Basin's north wall +25° @6.5": [
+   "clean"
+  ],
+  "cruise · Basin, the Basin's north wall +25° @8.5": [
+   "clean"
+  ],
+  "cruise · Basin, the Basin's north wall +40° @6.5": [
+   "clean"
+  ],
+  "cruise · Basin, the Basin's north wall +40° @8.5": [
+   "clean",
+   "clean"
+  ],
+  "cruise · Basin, east wall @6.5": [
+   "clean",
+   "clean"
+  ],
+  "cruise · Basin, east wall @8.5": [
+   "clean",
+   "clean"
+  ],
+  "cruise · Basin, east wall -40° @6.5": [
+   "clean"
+  ],
+  "cruise · Basin, east wall -40° @8.5": [
+   "clean",
+   "clean"
+  ],
+  "cruise · Basin, east wall -25° @6.5": [
+   "clean"
+  ],
+  "cruise · Basin, east wall -25° @8.5": [
+   "clean"
+  ],
+  "cruise · Basin, east wall +25° @6.5": [
+   "clean"
+  ],
+  "cruise · Basin, east wall +25° @8.5": [
+   "clean"
+  ],
+  "cruise · Basin, east wall +40° @6.5": [
+   "clean"
+  ],
+  "cruise · Basin, east wall +40° @8.5": [
+   "clean",
+   "clean"
+  ],
+  "cruise · Basin, south wall @6.5": [
+   "clean",
+   "clean"
+  ],
+  "cruise · Basin, south wall @8.5": [
+   "clean",
+   "clean"
+  ],
+  "cruise · Basin, south wall -40° @6.5": [
+   "clean"
+  ],
+  "cruise · Basin, south wall -40° @8.5": [
+   "clean",
+   "clean"
+  ],
+  "cruise · Basin, south wall -25° @6.5": [
+   "clean"
+  ],
+  "cruise · Basin, south wall -25° @8.5": [
+   "clean"
+  ],
+  "cruise · Basin, south wall +25° @6.5": [
+   "clean"
+  ],
+  "cruise · Basin, south wall +25° @8.5": [
+   "clean"
+  ],
+  "cruise · Basin, south wall +40° @6.5": [
+   "clean"
+  ],
+  "cruise · Basin, south wall +40° @8.5": [
+   "clean",
+   "clean"
+  ],
+  "cruise · Basin, west wall @6.5": [
+   "clean",
+   "clean"
+  ],
+  "cruise · Basin, west wall @8.5": [
+   "clean",
+   "clean"
+  ],
+  "cruise · Basin, west wall -40° @6.5": [
+   "clean"
+  ],
+  "cruise · Basin, west wall -40° @8.5": [
+   "clean",
+   "clean"
+  ],
+  "cruise · Basin, west wall -25° @6.5": [
+   "clean"
+  ],
+  "cruise · Basin, west wall -25° @8.5": [
+   "clean"
+  ],
+  "cruise · Basin, west wall +25° @6.5": [
+   "clean"
+  ],
+  "cruise · Basin, west wall +25° @8.5": [
+   "clean"
+  ],
+  "cruise · Basin, west wall +40° @6.5": [
+   "clean"
+  ],
+  "cruise · Basin, west wall +40° @8.5": [
+   "clean",
+   "clean"
+  ],
+  "cruise · Deck Quarter @7": [
+   "clean"
+  ],
+  "cruise · Deck Quarter @9": [
+   "clean"
+  ],
+  "cruise · Deck Quarter -40° @7.5": [
+   "clean",
+   "clean"
+  ],
+  "cruise · Deck Quarter -40° @9": [
+   "clean",
+   "clean"
+  ],
+  "cruise · Deck Quarter -25° @7.5": [
+   "clean",
+   "clean"
+  ],
+  "cruise · Deck Quarter -25° @9": [
+   "sketchy"
+  ],
+  "cruise · Deck Quarter +25° @7.5": [
+   "clean"
+  ],
+  "cruise · Deck Quarter +25° @9": [
+   "bail:wall"
+  ],
+  "cruise · Deck Quarter +40° @7.5": [
+   "bail:wall"
+  ],
+  "cruise · Deck Quarter +40° @9": [
+   "bail:wall"
+  ],
+  "cruise · East Wall @7": [
+   "clean"
+  ],
+  "cruise · East Wall @9": [
+   "clean",
+   "bail:wall"
+  ],
+  "cruise · East Wall -40° @7.5": [
+   "bail:wall"
+  ],
+  "cruise · East Wall -40° @9": [
+   "clean",
+   "clean",
+   "bail:wall"
+  ],
+  "cruise · East Wall -25° @7.5": [
+   "clean"
+  ],
+  "cruise · East Wall -25° @9": [
+   "clean",
+   "clean"
+  ],
+  "cruise · East Wall +25° @7.5": [
+   "clean"
+  ],
+  "cruise · East Wall +25° @9": [
+   "clean"
+  ],
+  "cruise · East Wall +40° @7.5": [
+   "bail:wall"
+  ],
+  "cruise · East Wall +40° @9": [
+   "clean",
+   "clean",
+   "bail:wall"
+  ],
+  "cruise · Lawn Quarter @7": [
+   "clean",
+   "clean",
+   "clean"
+  ],
+  "cruise · Lawn Quarter @9": [
+   "clean",
+   "clean",
+   "clean"
+  ],
+  "cruise · Lawn Quarter -40° @7.5": [
+   "clean",
+   "bail"
+  ],
+  "cruise · Lawn Quarter -40° @9": [
+   "grind"
+  ],
+  "cruise · Lawn Quarter -25° @7.5": [
+   "clean",
+   "bail"
+  ],
+  "cruise · Lawn Quarter -25° @9": [
+   "sketchy",
+   "clean"
+  ],
+  "cruise · Lawn Quarter +25° @7.5": [
+   "clean"
+  ],
+  "cruise · Lawn Quarter +25° @9": [
+   "sketchy"
+  ],
+  "cruise · Lawn Quarter +40° @7.5": [
+   "clean"
+  ],
+  "cruise · Lawn Quarter +40° @9": [
+   "clean"
+  ],
+  "cruise · the Spine from the east @6.5": [
+   "clean",
+   "bail:wall"
+  ],
+  "cruise · the Spine from the east @8.5": [
+   "clean",
+   "bail:wall"
+  ],
+  "cruise · the Spine from the east -25° @6.5": [
+   "clean",
+   "clean"
+  ],
+  "cruise · the Spine from the east -25° @8.5": [
+   "clean",
+   "clean",
+   "clean"
+  ],
+  "cruise · the Spine from the east +25° @6.5": [
+   "clean"
+  ],
+  "cruise · the Spine from the east +25° @8.5": [
+   "clean"
+  ],
+  "cruise · the Spine from the west @6.5": [
+   "clean",
+   "clean",
+   "clean"
+  ],
+  "cruise · the Spine from the west @8.5": [
+   "clean",
+   "clean",
+   "clean"
+  ],
+  "cruise · the Spine from the west -25° @6.5": [
+   "clean",
+   "bail:wall"
+  ],
+  "cruise · the Spine from the west -25° @8.5": [
+   "clean"
+  ],
+  "cruise · the Spine from the west +25° @6.5": [
+   "clean",
+   "bail:wall"
+  ],
+  "cruise · the Spine from the west +25° @8.5": [
+   "clean",
+   "clean",
+   "clean"
+  ],
+  "classic · Basin, the Basin's north wall @6.5": [
+   "clean",
+   "clean"
+  ],
+  "classic · Basin, the Basin's north wall @8.5": [
+   "clean",
+   "clean"
+  ],
+  "classic · Basin, the Basin's north wall -40° @6.5": [
+   "clean"
+  ],
+  "classic · Basin, the Basin's north wall -40° @8.5": [
+   "clean",
+   "clean"
+  ],
+  "classic · Basin, the Basin's north wall -25° @6.5": [
+   "clean"
+  ],
+  "classic · Basin, the Basin's north wall -25° @8.5": [
+   "clean"
+  ],
+  "classic · Basin, the Basin's north wall +25° @6.5": [
+   "clean"
+  ],
+  "classic · Basin, the Basin's north wall +25° @8.5": [
+   "clean"
+  ],
+  "classic · Basin, the Basin's north wall +40° @6.5": [
+   "clean"
+  ],
+  "classic · Basin, the Basin's north wall +40° @8.5": [
+   "clean",
+   "clean"
+  ],
+  "classic · Basin, east wall @6.5": [
+   "clean",
+   "clean"
+  ],
+  "classic · Basin, east wall @8.5": [
+   "clean",
+   "clean"
+  ],
+  "classic · Basin, east wall -40° @6.5": [
+   "clean"
+  ],
+  "classic · Basin, east wall -40° @8.5": [
+   "clean",
+   "clean"
+  ],
+  "classic · Basin, east wall -25° @6.5": [
+   "clean"
+  ],
+  "classic · Basin, east wall -25° @8.5": [
+   "clean"
+  ],
+  "classic · Basin, east wall +25° @6.5": [
+   "clean"
+  ],
+  "classic · Basin, east wall +25° @8.5": [
+   "clean"
+  ],
+  "classic · Basin, east wall +40° @6.5": [
+   "clean"
+  ],
+  "classic · Basin, east wall +40° @8.5": [
+   "clean",
+   "clean"
+  ],
+  "classic · Basin, south wall @6.5": [
+   "clean",
+   "clean"
+  ],
+  "classic · Basin, south wall @8.5": [
+   "clean",
+   "clean"
+  ],
+  "classic · Basin, south wall -40° @6.5": [
+   "clean"
+  ],
+  "classic · Basin, south wall -40° @8.5": [
+   "clean",
+   "clean"
+  ],
+  "classic · Basin, south wall -25° @6.5": [
+   "clean"
+  ],
+  "classic · Basin, south wall -25° @8.5": [
+   "clean"
+  ],
+  "classic · Basin, south wall +25° @6.5": [
+   "clean"
+  ],
+  "classic · Basin, south wall +25° @8.5": [
+   "clean"
+  ],
+  "classic · Basin, south wall +40° @6.5": [
+   "clean"
+  ],
+  "classic · Basin, south wall +40° @8.5": [
+   "clean",
+   "clean"
+  ],
+  "classic · Basin, west wall @6.5": [
+   "clean",
+   "clean"
+  ],
+  "classic · Basin, west wall @8.5": [
+   "clean",
+   "clean"
+  ],
+  "classic · Basin, west wall -40° @6.5": [
+   "clean"
+  ],
+  "classic · Basin, west wall -40° @8.5": [
+   "clean",
+   "clean"
+  ],
+  "classic · Basin, west wall -25° @6.5": [
+   "clean"
+  ],
+  "classic · Basin, west wall -25° @8.5": [
+   "clean"
+  ],
+  "classic · Basin, west wall +25° @6.5": [
+   "clean"
+  ],
+  "classic · Basin, west wall +25° @8.5": [
+   "clean"
+  ],
+  "classic · Basin, west wall +40° @6.5": [
+   "clean"
+  ],
+  "classic · Basin, west wall +40° @8.5": [
+   "clean",
+   "clean"
+  ],
+  "classic · Deck Quarter @7": [
+   "clean"
+  ],
+  "classic · Deck Quarter @9": [
+   "clean"
+  ],
+  "classic · Deck Quarter -40° @7.5": [
+   "clean",
+   "sketchy"
+  ],
+  "classic · Deck Quarter -40° @9": [
+   "clean",
+   "sketchy"
+  ],
+  "classic · Deck Quarter -25° @7.5": [
+   "sketchy",
+   "clean"
+  ],
+  "classic · Deck Quarter -25° @9": [
+   "sketchy"
+  ],
+  "classic · Deck Quarter +25° @7.5": [
+   "sketchy"
+  ],
+  "classic · Deck Quarter +25° @9": [
+   "bail:wall"
+  ],
+  "classic · Deck Quarter +40° @7.5": [
+   "bail:wall"
+  ],
+  "classic · Deck Quarter +40° @9": [
+   "bail:wall"
+  ],
+  "classic · East Wall @7": [
+   "clean"
+  ],
+  "classic · East Wall @9": [
+   "clean",
+   "bail:wall"
+  ],
+  "classic · East Wall -40° @7.5": [
+   "bail:wall"
+  ],
+  "classic · East Wall -40° @9": [
+   "sketchy",
+   "clean"
+  ],
+  "classic · East Wall -25° @7.5": [
+   "clean"
+  ],
+  "classic · East Wall -25° @9": [
+   "clean",
+   "clean"
+  ],
+  "classic · East Wall +25° @7.5": [
+   "clean"
+  ],
+  "classic · East Wall +25° @9": [
+   "clean",
+   "bail:wall"
+  ],
+  "classic · East Wall +40° @7.5": [
+   "bail:wall"
+  ],
+  "classic · East Wall +40° @9": [
+   "sketchy",
+   "clean",
+   "bail:wall"
+  ],
+  "classic · Lawn Quarter @7": [
+   "clean",
+   "clean",
+   "clean"
+  ],
+  "classic · Lawn Quarter @9": [
+   "clean",
+   "clean",
+   "clean"
+  ],
+  "classic · Lawn Quarter -40° @7.5": [
+   "clean",
+   "bail"
+  ],
+  "classic · Lawn Quarter -40° @9": [
+   "grind"
+  ],
+  "classic · Lawn Quarter -25° @7.5": [
+   "clean",
+   "bail"
+  ],
+  "classic · Lawn Quarter -25° @9": [
+   "sketchy",
+   "bail"
+  ],
+  "classic · Lawn Quarter +25° @7.5": [
+   "clean"
+  ],
+  "classic · Lawn Quarter +25° @9": [
+   "sketchy"
+  ],
+  "classic · Lawn Quarter +40° @7.5": [
+   "clean"
+  ],
+  "classic · Lawn Quarter +40° @9": [
+   "clean"
+  ],
+  "classic · the Spine from the east @6.5": [
+   "clean",
+   "bail:wall"
+  ],
+  "classic · the Spine from the east @8.5": [
+   "clean",
+   "bail:wall"
+  ],
+  "classic · the Spine from the east -25° @6.5": [
+   "sketchy",
+   "clean"
+  ],
+  "classic · the Spine from the east -25° @8.5": [
+   "clean",
+   "clean",
+   "clean"
+  ],
+  "classic · the Spine from the east +25° @6.5": [
+   "sketchy"
+  ],
+  "classic · the Spine from the east +25° @8.5": [
+   "clean"
+  ],
+  "classic · the Spine from the west @6.5": [
+   "clean",
+   "clean",
+   "clean"
+  ],
+  "classic · the Spine from the west @8.5": [
+   "clean",
+   "clean",
+   "clean"
+  ],
+  "classic · the Spine from the west -25° @6.5": [
+   "clean",
+   "bail:wall"
+  ],
+  "classic · the Spine from the west -25° @8.5": [
+   "clean"
+  ],
+  "classic · the Spine from the west +25° @6.5": [
+   "clean",
+   "bail:wall"
+  ],
+  "classic · the Spine from the west +25° @8.5": [
+   "clean",
+   "clean",
+   "clean"
+  ],
+  "raw · Basin, the Basin's north wall @6.5": [
+   "clean",
+   "clean",
+   "clean"
+  ],
+  "raw · Basin, the Basin's north wall @8.5": [
+   "clean"
+  ],
+  "raw · Basin, the Basin's north wall -40° @6.5": [
+   "clean",
+   "sketchy",
+   "clean"
+  ],
+  "raw · Basin, the Basin's north wall -40° @8.5": [
+   "clean",
+   "clean"
+  ],
+  "raw · Basin, the Basin's north wall -25° @6.5": [],
+  "raw · Basin, the Basin's north wall -25° @8.5": [
+   "sketchy"
+  ],
+  "raw · Basin, the Basin's north wall +25° @6.5": [],
+  "raw · Basin, the Basin's north wall +25° @8.5": [
+   "sketchy"
+  ],
+  "raw · Basin, the Basin's north wall +40° @6.5": [
+   "clean",
+   "sketchy",
+   "clean"
+  ],
+  "raw · Basin, the Basin's north wall +40° @8.5": [
+   "clean",
+   "clean"
+  ],
+  "raw · Basin, east wall @6.5": [
+   "clean",
+   "clean",
+   "clean"
+  ],
+  "raw · Basin, east wall @8.5": [
+   "clean"
+  ],
+  "raw · Basin, east wall -40° @6.5": [
+   "clean",
+   "sketchy",
+   "clean"
+  ],
+  "raw · Basin, east wall -40° @8.5": [
+   "clean",
+   "clean"
+  ],
+  "raw · Basin, east wall -25° @6.5": [],
+  "raw · Basin, east wall -25° @8.5": [
+   "sketchy"
+  ],
+  "raw · Basin, east wall +25° @6.5": [],
+  "raw · Basin, east wall +25° @8.5": [
+   "sketchy"
+  ],
+  "raw · Basin, east wall +40° @6.5": [
+   "clean",
+   "sketchy",
+   "clean"
+  ],
+  "raw · Basin, east wall +40° @8.5": [
+   "clean",
+   "clean"
+  ],
+  "raw · Basin, south wall @6.5": [
+   "clean",
+   "clean",
+   "clean"
+  ],
+  "raw · Basin, south wall @8.5": [
+   "clean"
+  ],
+  "raw · Basin, south wall -40° @6.5": [
+   "clean",
+   "sketchy",
+   "clean"
+  ],
+  "raw · Basin, south wall -40° @8.5": [
+   "clean",
+   "clean"
+  ],
+  "raw · Basin, south wall -25° @6.5": [],
+  "raw · Basin, south wall -25° @8.5": [
+   "sketchy"
+  ],
+  "raw · Basin, south wall +25° @6.5": [],
+  "raw · Basin, south wall +25° @8.5": [
+   "sketchy"
+  ],
+  "raw · Basin, south wall +40° @6.5": [
+   "clean",
+   "sketchy",
+   "clean"
+  ],
+  "raw · Basin, south wall +40° @8.5": [
+   "clean",
+   "clean"
+  ],
+  "raw · Basin, west wall @6.5": [
+   "clean",
+   "clean",
+   "clean"
+  ],
+  "raw · Basin, west wall @8.5": [
+   "clean"
+  ],
+  "raw · Basin, west wall -40° @6.5": [
+   "clean",
+   "sketchy",
+   "clean"
+  ],
+  "raw · Basin, west wall -40° @8.5": [
+   "clean",
+   "clean"
+  ],
+  "raw · Basin, west wall -25° @6.5": [],
+  "raw · Basin, west wall -25° @8.5": [
+   "sketchy"
+  ],
+  "raw · Basin, west wall +25° @6.5": [],
+  "raw · Basin, west wall +25° @8.5": [
+   "sketchy"
+  ],
+  "raw · Basin, west wall +40° @6.5": [
+   "clean",
+   "sketchy",
+   "clean"
+  ],
+  "raw · Basin, west wall +40° @8.5": [
+   "clean",
+   "clean"
+  ],
+  "raw · Deck Quarter @7": [
+   "clean",
+   "clean"
+  ],
+  "raw · Deck Quarter @9": [
+   "clean",
+   "sketchy"
+  ],
+  "raw · Deck Quarter -40° @7.5": [
+   "clean",
+   "clean"
+  ],
+  "raw · Deck Quarter -40° @9": [
+   "clean",
+   "clean"
+  ],
+  "raw · Deck Quarter -25° @7.5": [
+   "clean",
+   "sketchy"
+  ],
+  "raw · Deck Quarter -25° @9": [
+   "sketchy"
+  ],
+  "raw · Deck Quarter +25° @7.5": [
+   "clean"
+  ],
+  "raw · Deck Quarter +25° @9": [
+   "bail:wall"
+  ],
+  "raw · Deck Quarter +40° @7.5": [
+   "bail:wall"
+  ],
+  "raw · Deck Quarter +40° @9": [
+   "bail:wall"
+  ],
+  "raw · East Wall @7": [
+   "clean",
+   "clean"
+  ],
+  "raw · East Wall @9": [
+   "clean"
+  ],
+  "raw · East Wall -40° @7.5": [
+   "bail:wall"
+  ],
+  "raw · East Wall -40° @9": [
+   "clean",
+   "clean",
+   "clean",
+   "bail:wall"
+  ],
+  "raw · East Wall -25° @7.5": [
+   "clean",
+   "sketchy"
+  ],
+  "raw · East Wall -25° @9": [
+   "sketchy"
+  ],
+  "raw · East Wall +25° @7.5": [
+   "clean",
+   "sketchy"
+  ],
+  "raw · East Wall +25° @9": [
+   "sketchy"
+  ],
+  "raw · East Wall +40° @7.5": [
+   "bail:wall"
+  ],
+  "raw · East Wall +40° @9": [
+   "clean",
+   "clean",
+   "clean",
+   "bail:wall"
+  ],
+  "raw · Lawn Quarter @7": [
+   "clean"
+  ],
+  "raw · Lawn Quarter @9": [
+   "sketchy"
+  ],
+  "raw · Lawn Quarter -40° @7.5": [
+   "clean",
+   "clean"
+  ],
+  "raw · Lawn Quarter -40° @9": [],
+  "raw · Lawn Quarter -25° @7.5": [
+   "clean"
+  ],
+  "raw · Lawn Quarter -25° @9": [
+   "bail:wall"
+  ],
+  "raw · Lawn Quarter +25° @7.5": [
+   "clean"
+  ],
+  "raw · Lawn Quarter +25° @9": [
+   "bail:wall"
+  ],
+  "raw · Lawn Quarter +40° @7.5": [
+   "clean",
+   "clean"
+  ],
+  "raw · Lawn Quarter +40° @9": [],
+  "raw · the Spine from the east @6.5": [
+   "clean",
+   "clean"
+  ],
+  "raw · the Spine from the east @8.5": [
+   "sketchy"
+  ],
+  "raw · the Spine from the east -25° @6.5": [
+   "clean",
+   "sketchy"
+  ],
+  "raw · the Spine from the east -25° @8.5": [
+   "clean",
+   "sketchy"
+  ],
+  "raw · the Spine from the east +25° @6.5": [
+   "clean"
+  ],
+  "raw · the Spine from the east +25° @8.5": [
+   "clean"
+  ],
+  "raw · the Spine from the west @6.5": [
+   "clean",
+   "clean",
+   "clean",
+   "bail:wall"
+  ],
+  "raw · the Spine from the west @8.5": [
+   "sketchy"
+  ],
+  "raw · the Spine from the west -25° @6.5": [
+   "clean"
+  ],
+  "raw · the Spine from the west -25° @8.5": [
+   "clean"
+  ],
+  "raw · the Spine from the west +25° @6.5": [
+   "clean"
+  ],
+  "raw · the Spine from the west +25° @8.5": [
+   "clean",
+   "sketchy"
+  ]
+ }
+}

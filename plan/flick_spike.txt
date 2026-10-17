@@ -1,0 +1,17 @@
+
+FLICK GRAMMAR SPIKE — reader: templates+0.02 — 400 synthetic thumbs a class, a cell = share read as the trick meant (classic reading)
+
+60 Hz · thumb angle σ  6°: read right 96.4% · popped 100.0% · pop after the stroke began: median 50 ms, p90 66 ms
+60 Hz · thumb angle σ 10°: read right 90.0% · popped 99.8% · pop after the stroke began: median 50 ms, p90 66 ms
+   Ollie            97% · Kickflip         87% · Heelflip         89% · BS Shove         87% · FS Shove         86% · Varial Kickflip  77% · Hardflip         96% · Inward Heelflip  95% · Varial Heelflip  78% · 360 Flip        100% · Laser Flip      100%
+60 Hz · thumb angle σ 15°: read right 80.1% · popped 99.1% · pop after the stroke began: median 50 ms, p90 66 ms
+120 Hz · thumb angle σ  6°: read right 97.5% · popped 100.0% · pop after the stroke began: median 41 ms, p90 58 ms
+120 Hz · thumb angle σ 10°: read right 91.5% · popped 100.0% · pop after the stroke began: median 41 ms, p90 58 ms
+   Ollie            95% · Kickflip         88% · Heelflip         88% · BS Shove         87% · FS Shove         89% · Varial Kickflip  83% · Hardflip         97% · Inward Heelflip  97% · Varial Heelflip  83% · 360 Flip        100% · Laser Flip      100%
+120 Hz · thumb angle σ 15°: read right 82.1% · popped 99.3% · pop after the stroke began: median 41 ms, p90 58 ms
+240 Hz · thumb angle σ  6°: read right 96.7% · popped 100.0% · pop after the stroke began: median 37 ms, p90 54 ms
+240 Hz · thumb angle σ 10°: read right 90.5% · popped 99.9% · pop after the stroke began: median 37 ms, p90 54 ms
+   Ollie            95% · Kickflip         83% · Heelflip         81% · BS Shove         87% · FS Shove         88% · Varial Kickflip  83% · Hardflip         99% · Inward Heelflip  99% · Varial Heelflip  82% · 360 Flip        100% · Laser Flip      100%
+240 Hz · thumb angle σ 15°: read right 82.2% · popped 99.5% · pop after the stroke began: median 37 ms, p90 58 ms
+
+Streamlined reading (every flip family folded to its basic trick), 120 Hz, σ 15°: 88.3% read as the basic trick meant
