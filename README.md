@@ -1,7 +1,28 @@
-# Waxline
+# Steal Like an Artist
 
-An original skateboarding game for phones and the web. Flick a thumb to pop and flip the board; the board moves by physics.
-Two parks: The Plaza and Kiln Yard.
+**Waxline**: an original skateboarding game for phones and the web, built in 48 hours, clean-room from public facts. Flick a thumb
+to pop and flip the board; the board moves by physics. Two parks: The Plaza and Kiln Yard.
+
+<p align="center"><img src="media/waxline-air.webp" width="100%" alt="An air out of the bowl into the low sun"></p>
+
+<table>
+<tr>
+<td width="50%"><img src="media/waxline-coping-line.webp" width="100%" alt="A line on the bowl's coping: 50-50, 360 flip, varial kickflip, crooked"></td>
+<td width="50%"><img src="media/waxline-curb-line.webp" width="100%" alt="A grind line on the red curb"></td>
+</tr>
+<tr>
+<td><img src="media/carve-golden-hour.jpg" width="100%" alt="A carve into the sun, long shadows"></td>
+<td><img src="media/fifty-fifty-tree-shadows.jpg" width="100%" alt="A 50-50 on the coping under tree shadows"></td>
+</tr>
+<tr>
+<td><img src="media/varial-kickflip.jpg" width="100%" alt="A varial kickflip over the bowl"></td>
+<td><img src="media/pop-shove-it.jpg" width="100%" alt="A pop shove-it by the fence"></td>
+</tr>
+<tr>
+<td><img src="media/boardslide-red-curb.jpg" width="100%" alt="A boardslide on the red curb"></td>
+<td><img src="media/quarter-pipe-air.jpg" width="100%" alt="An air over the quarter pipe"></td>
+</tr>
+</table>
 
 **Play it:** https://notesmosaic.com/sim/UQteU6RzJa3sotS3
 
